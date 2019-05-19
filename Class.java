@@ -9,10 +9,15 @@ public class Class {
 		System.out.println("enter student roll no:"+no);
 		
 	}
+	void status()
+	{
+			System.out.println("student is studying");
+	}
 
 	public static void main(String[] args) {
 		Class obj=new Class();
 		obj.display();
+		obj.status();
 
 	}
 
